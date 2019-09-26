@@ -7,11 +7,33 @@
   <version>1.0</version>
   <name>TPMaven</name>
   <url>http://maven.apache.org</url>
+
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>2.3.2</version>
+            <configuration>
+                <excludes>
+                    <exclude>**/fr/miage/bogus/*</exclude>
+                </excludes>
+              </configuration>
+        </plugin>
+    </plugins>
+  </build>
+
   <dependencies>
+    <dependency>
+      <groupId>com.indvd00m.ascii.render</groupId>
+      <artifactId>ascii-render</artifactId>
+      <version>2.1.2</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
