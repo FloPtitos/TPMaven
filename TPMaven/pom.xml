@@ -28,6 +28,10 @@
     </plugins>
   </build>
 
+  <arguments>
+     <argument>arg1</argument>
+ 	</arguments>
+
   <dependencies>
     <dependency>
       <groupId>com.indvd00m.ascii.render</groupId>
