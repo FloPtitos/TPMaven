@@ -24,5 +24,6 @@ public class Dessin
         ICanvas canvas = render.render(builder.build());
         String s = canvas.getText();
         System.out.println(s);
+
     }
 }

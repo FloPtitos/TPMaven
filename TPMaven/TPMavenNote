@@ -2,6 +2,9 @@ TP Ingénierie Logiciel
 
 ÇA MARCHE
 
+création d'un projet
+mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1
+
 4. Commentaires pom.xml
 
 On retrouve les éléments qu'on a défini avec le terminal de commande en lançant la cmd.
@@ -80,6 +83,49 @@ DÉPENDANCES
 
 EXECUTION MAVEN
 
+1.
 <arguments>
      <argument>arg1</argument>
 </arguments>
+
+
+
+RESSOURCES
+
+1.
+    <resources>
+     <resource>
+       <directory>./src/main/resources</directory>
+     </resource>
+   </resources>
+   
+2.
+public class Main {
+    public static void main(String[] args) throws IOException {
+        System.out.println("Hello World!");
+        ClassLoader cl = Thread.currentThread().getContextClassLoader();
+        String str;
+        InputStream in = cl.getResourceAsStream("config.cfg");
+        InputStreamReader streamReader = new InputStreamReader(in);
+        BufferedReader reader = new BufferedReader(streamReader);
+        while ((str = reader.readLine()) != null) {
+            System.out.println(str);
+
+        }
+    }
+}
+
+EXECUTABLE
+
+mvn package
+
+MODULES
+
+On crée 3 projets et on glisse Afficheur et Utils dans le porjet global
+<modules>
+    <module>Utils</module>
+    <module>Afficheur</module>
+  </modules>
+  
+  
+

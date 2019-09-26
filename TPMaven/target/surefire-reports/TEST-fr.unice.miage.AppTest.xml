@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="fr.unice.miage.AppTest" time="0.019" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="fr.unice.miage.AppTest" time="0.018" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.4+10-LTS"/>
@@ -20,7 +20,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="basedir" value="C:\Users\FlorentinoDaSilvaNev\Documents\TPMaven\TPMaven"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\FLOREN~1\AppData\Local\Temp\surefirebooter5281996862659793502.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FLOREN~1\AppData\Local\Temp\surefirebooter14166109595349791739.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\FLOREN~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\Users\FlorentinoDaSilvaNev\Documents\TPMaven\TPMaven\target\test-classes;C:\Users\FlorentinoDaSilvaNev\Documents\TPMaven\TPMaven\target\classes;C:\Users\FlorentinoDaSilvaNev\.m2\repository\com\indvd00m\ascii\render\ascii-render\2.1.2\ascii-render-2.1.2.jar;C:\Users\FlorentinoDaSilvaNev\.m2\repository\com\indvd00m\ascii\render\ascii-render-api\2.1.2\ascii-render-api-2.1.2.jar;C:\Users\FlorentinoDaSilvaNev\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="C:\Users\FLOREN~1\AppData\Local\Temp\surefirebooter5281996862659793502.jar C:\Users\FLOREN~1\AppData\Local\Temp\surefire2460302054456861465tmp C:\Users\FLOREN~1\AppData\Local\Temp\surefire2788944068574120965tmp"/>
+    <property name="sun.java.command" value="C:\Users\FLOREN~1\AppData\Local\Temp\surefirebooter14166109595349791739.jar C:\Users\FLOREN~1\AppData\Local\Temp\surefire18143797153620993463tmp C:\Users\FLOREN~1\AppData\Local\Temp\surefire3151283596933754423tmp"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,5 +63,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="fr.unice.miage.AppTest" name="testApp" time="0.002"/>
+  <testcase classname="fr.unice.miage.AppTest" name="testApp" time="0.003"/>
 </testsuite>
