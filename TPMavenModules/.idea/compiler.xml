@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TPMavenModules" />
+        <module name="Utils" />
+        <module name="Afficheur" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TPMavenModules" target="1.5" />
+      <module name="Afficheur" target="1.5" />
+      <module name="TPMavenModules" target="1.8" />
+      <module name="Utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

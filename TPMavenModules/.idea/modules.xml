@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Afficheur/Afficheur.iml" filepath="$PROJECT_DIR$/Afficheur/Afficheur.iml" />
       <module fileurl="file://$PROJECT_DIR$/TPMavenModules.iml" filepath="$PROJECT_DIR$/TPMavenModules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utils/Utils.iml" filepath="$PROJECT_DIR$/Utils/Utils.iml" />
     </modules>
   </component>
 </project>
