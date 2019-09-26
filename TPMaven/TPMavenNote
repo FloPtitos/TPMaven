@@ -1,0 +1,79 @@
+TP Ingénierie Logiciel
+
+ÇA MARCHE
+
+4. Commentaires pom.xml
+
+On retrouve les éléments qu'on a défini avec le terminal de commande en lançant la cmd.
+On retrouve la version du projet, le nom (artifactID), les dépendances.
+
+5.
+C:.
+└───src
+    ├───main
+    │   └───java
+    │       └───fr
+    │           └───unice
+    │               └───miage
+    └───test
+        └───java
+            └───fr
+                └───unice
+                    └───miage
+
+7. mvn -e compile
+
+8. dans target/fr/unice/miage
+
+9 dans /target
+
+ÇA MARCHE PAS
+
+C:.
+├───src
+│   ├───main
+│   │   └───java
+│   │       └───fr
+│   │           ├───miage
+│   │           │   └───bogus
+│   │           └───unice
+│   │               └───miage
+│   └───test
+│       └───java
+│           └───fr
+│               └───unice
+│                   └───miage
+└───target
+    ├───classes
+    │   └───fr
+    │       └───unice
+    │           └───miage
+    ├───maven-archiver
+    ├───surefire-reports
+    └───test-classes
+        └───fr
+            └───unice
+                └───miage
+				
+  <build>
+    <plugins>
+      <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>2.3.2</version>
+            <configuration>
+                <excludes>
+                    <exclude>**/fr/miage/bogus/*</exclude>
+                </excludes>
+             </configuration>
+        </plugin>
+    </plugins>
+  </build>
+  
+DÉPENDANCES
+
+<dependency>
+    <groupId>com.indvd00m.ascii.render</groupId>
+    <artifactId>ascii-render</artifactId>
+    <version>2.1.2</version>
+</dependency>
