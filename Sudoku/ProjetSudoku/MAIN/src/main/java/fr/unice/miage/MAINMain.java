@@ -13,7 +13,7 @@ public class MAINMain
     {
 
         System.out.println( "Hello World!" );
-        GUIMain.hello();
+        GUIMain.draw();
         IOMain.hello();
 
     }

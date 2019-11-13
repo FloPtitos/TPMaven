@@ -13,6 +13,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="module" module-name="GUI" />
+    <orderEntry type="library" name="Maven: com.indvd00m.ascii.render:ascii-render:2.1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.indvd00m.ascii.render:ascii-render-api:2.1.2" level="project" />
     <orderEntry type="module" module-name="IO" />
   </component>
 </module>
